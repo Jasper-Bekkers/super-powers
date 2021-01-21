@@ -46,7 +46,8 @@ adb shell pm uninstall --user 0 com.dsi.ant.plugins.antplus
 adb shell pm uninstall --user 0 com.android.egg
 adb shell pm uninstall --user 0 com.sec.android.easyonehand
 adb shell pm uninstall --user 0 com.sec.android.widgetapp.samsungapps
-adb shell pm uninstall --user 0 com.sec.android.app.launcher
+rem this removes the task switcher, so it's commented out
+rem adb shell pm uninstall --user 0 com.sec.android.app.launcher
 adb shell pm uninstall --user 0 com.samsung.android.mateagent
 adb shell pm uninstall --user 0 com.sec.android.easyMover.Agent
 adb shell pm uninstall --user 0 com.samsung.android.app.watchmanagerstub
