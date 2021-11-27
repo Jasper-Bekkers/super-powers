@@ -1,1 +1,1 @@
-"C:\Program Files\Everything\Everything.exe" -s %*
+"C:\Program Files\Everything\Everything.exe" -s "%*"
